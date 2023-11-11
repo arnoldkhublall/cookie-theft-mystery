@@ -1,0 +1,245 @@
+
+CREATE TABLE Babies(
+	id INT PRIMARY KEY,
+	first_name TEXT,
+	last_name TEXT,
+	hair TEXT,
+	eyes TEXT
+);
+INSERT INTO Babies VALUES(10267, "MICHAEL", "JACKSON", "BLONDE", "BLUE");
+INSERT INTO Babies VALUES(10274, "MICHAEL", "BOLTON", "BLONDE", "BLUE");
+INSERT INTO Babies VALUES(10283, "MICHAEL", "KEITH", "BLONDE", "BLUE");
+INSERT INTO Babies VALUES(10298, "RACHEL", "GAPASIN", "BROWN", "BROWN");
+INSERT INTO Babies VALUES(10304, "MAYA", "SALLAL", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10309, "ARNOLD", "KHUBLALL", "BROWN", "BROWN");
+INSERT INTO Babies VALUES(10328, "JACKSON", "JAMES", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10330, "KEVIN", "SINGH", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10333, "IRIS", "KALE", "GINGER", "GREEN");
+INSERT INTO Babies VALUES(10338, "SYNDEL", "CENSOR", "BROWN", "BROWN");
+INSERT INTO Babies VALUES(10340, "JAMES", "KENDALL", "BLACK", "GREY");
+INSERT INTO Babies VALUES(10344, "AANIYAH", "COOPER", "BRUNETTE", "BROWN");
+INSERT INTO Babies VALUES(10347, "CHRIS", "EVANS", "BLACK", "BLUE");
+INSERT INTO Babies VALUES(10349, "SCARLET", "JOHANSSON", "BRUNETTE", "BROWN");
+INSERT INTO Babies VALUES(10353, "CRYSTAL", "RIVER", "GINGER", "BROWN");
+INSERT INTO Babies VALUES(10356, "JUSTIN", "CLASS", "BLONDE", "BLUE");
+INSERT INTO Babies VALUES(10358, "DHARMA", "JAHAIRA", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10362, "MIKE", "CHANG", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10367, "SARRAH", "KHOBLALL", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10371, "HANNA", "MURPHY", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10377, "CHRISTINA", "SLOTH", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10382, "GRIFFIN", "COUCH", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10384, "TONY", "STARK", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10389, "JENNIFER", "BENSON", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10394, "TERRANCE", "LONG", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10402, "RILEY", "TUCKER", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10404, "LESLEY", "HOPE", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10406, "KIMBERLY", "CHAND", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10410, "NICK", "COURSE", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10412, "JINRUO", "CAO", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10415, "MAX", "DENIM", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10417, "MILTON", "NICE", "BLACK", "BLACK");
+INSERT INTO Babies VALUES(10420, "CLARK", "KENT", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10423, "BENNY", "FUNCTION", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10425, "MIKE", "JUMP", "GINGER", "BLUE");
+INSERT INTO Babies VALUES(10428, "MELVYN", "DRAG", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10431, "VINCENT", "GASH", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10433, "GABRIEL", "MACK", "BLONE", "BLUE");
+INSERT INTO Babies VALUES(10435, "MACK", "BLACK", "GINGER", "BROWN");
+INSERT INTO Babies VALUES(10438, "ROBERT", "DOWNEY", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10441, "CHRIS", "HEMSWORTH", "BLONDE", "BLUE");
+INSERT INTO Babies VALUES(10443, "NEWTON", "HAINS", "BROWN", "BLACK");
+INSERT INTO Babies VALUES(10445, "CLIFFORD", "DOG", "GINGER", "BLACK");
+INSERT INTO Babies VALUES(10448, "REGGY", "MUNCH", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10451, "NICK", "MARSHAL", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10454, "JACK", "BOSCH", "BLACK", "BLUE");
+INSERT INTO Babies VALUES(10455, "JARRED", "JOES", "BLACK", "BROWN");
+INSERT INTO Babies VALUES(10457, "TEVIN", "BROWN", "BLACK", "BROWN");
+
+CREATE TABLE DaycareEmployees(
+	id INT PRIMARY KEY,
+	first_name text,
+	last_name
+);
+
+INSERT INTO DaycareEmployees VALUES(20104, "JANINE", "STEVENS");
+INSERT INTO DaycareEmployees VALUES(20108, "DEBBIE", "ARMOGAN");
+INSERT INTO DaycareEmployees VALUES(20110, "JANINE", "LONGBOTTOM");
+INSERT INTO DaycareEmployees VALUES(20112, "JACKSON", "BLACK");
+INSERT INTO DaycareEmployees VALUES(20113, "DOLLY", "BACAL");
+INSERT INTO DaycareEmployees VALUES(20115, "BECKY", "CANON");
+INSERT INTO DaycareEmployees VALUES(20117, "DEREK", "HALE");
+INSERT INTO DaycareEmployees VALUES(20119, "JERRY", "MACK");
+INSERT INTO DaycareEmployees VALUES(20123, "TOM", "DEN");
+INSERT INTO DaycareEmployees VALUES(20125, "DENIS", "BECK");
+INSERT INTO DaycareEmployees VALUES(20127, "TORY", "VEGA");
+INSERT INTO DaycareEmployees VALUES(20129, "ARIANA", "GRANDE");
+INSERT INTO DaycareEmployees VALUES(20132, "VICTOR", "JAMES");
+INSERT INTO DaycareEmployees VALUES(20134, "LORA", "CHAIR");
+INSERT INTO DaycareEmployees VALUES(20136, "KATHERINE", "HEART");
+INSERT INTO DaycareEmployees VALUES(20138, "DAVID", "MATRIX");
+INSERT INTO DaycareEmployees VALUES(20139, "LISA", "BALE");
+INSERT INTO DaycareEmployees VALUES(20143, "ALICIA", "LOOP");
+INSERT INTO DaycareEmployees VALUES(20146, "DYSHAUN", "ROQUE");
+INSERT INTO DaycareEmployees VALUES(20147, "MAKI", "MONROE");
+INSERT INTO DaycareEmployees VALUES(20149, "AMAYA", "HOPE");
+INSERT INTO DaycareEmployees VALUES(20152, "ALEXIS", "POPE");
+INSERT INTO DaycareEmployees VALUES(20154, "ADONTE", "BENS");
+INSERT INTO DaycareEmployees VALUES(20156, "JAMAL", "HEVEN");
+INSERT INTO DaycareEmployees VALUES(20158, "JYH", "LIU");
+INSERT INTO DaycareEmployees VALUES(20159, "DUKENSON", "PASS");
+INSERT INTO DaycareEmployees VALUES(20162, "ANTONIO", "MEDERO");
+INSERT INTO DaycareEmployees VALUES(20163, "LUKE", "MENDEZ");
+INSERT INTO DaycareEmployees VALUES(20165, "MARRY", "HART");
+INSERT INTO DaycareEmployees VALUES(20167, "BEN", "WHEELER");
+INSERT INTO DaycareEmployees VALUES(20168, "DANNY", "HUNT");
+INSERT INTO DaycareEmployees VALUES(20169, "TYLER", "CURT");
+INSERT INTO DaycareEmployees VALUES(20171, "ANJOLI", "REN");
+INSERT INTO DaycareEmployees VALUES(20172, "KILLUA", "KILL");
+INSERT INTO DaycareEmployees VALUES(20174, "CURTIS", "JEN");
+INSERT INTO DaycareEmployees VALUES(20176, "DAISY", "MON");
+INSERT INTO DaycareEmployees VALUES(20177, "ROSE", "FLOWER");
+INSERT INTO DaycareEmployees VALUES(20178, "BABYBACK", "RIBS");
+INSERT INTO DaycareEmployees VALUES(20180, "TOP", "SIRLOIN");
+INSERT INTO DaycareEmployees VALUES(20182, "RIBEYE", "BROCCOLI");
+INSERT INTO DaycareEmployees VALUES(20183, "BEN", "10");
+INSERT INTO DaycareEmployees VALUES(20185, "BUZZ", "LIGHTYEAR");
+INSERT INTO DaycareEmployees VALUES(20186, "WOODY", "WOODPECKER");
+INSERT INTO DaycareEmployees VALUES(20188, "SNAKE", "EYES");
+INSERT INTO DaycareEmployees VALUES(20189, "KAKASHI", "HATAKI");
+INSERT INTO DaycareEmployees VALUES(20190, "SASKUE", "UCHIHA");
+INSERT INTO DaycareEmployees VALUES(20193, "NARUTO", "UZUMAKI");
+INSERT INTO DaycareEmployees VALUES(20195, "BENJAMIN", "FRANKLIN");
+INSERT INTO DaycareEmployees VALUES(20197, "GOKU", "SON");
+
+
+
+
+CREATE TABLE Attendance(
+	id INT PRIMARY KEY,
+	date TEXT,
+	baby_id int,
+	FOREIGN KEY(baby_id) REFERENCES Babies(id)
+);
+
+
+INSERT INTO Attendance VALUES(029, "3/16/23", 10356);
+INSERT INTO Attendance VALUES(031, "3/16/23", 10362);
+INSERT INTO Attendance VALUES(034, "3/16/23", 10367);
+INSERT INTO Attendance VALUES(035, "3/16/23", 10371);
+INSERT INTO Attendance VALUES(037, "3/16/23", 10377);
+INSERT INTO Attendance VALUES(039, "3/16/23", 10382);
+INSERT INTO Attendance VALUES(041, "3/16/23", 10384);
+INSERT INTO Attendance VALUES(042, "3/16/23", 10389);
+INSERT INTO Attendance VALUES(045, "3/16/23", 10394);
+INSERT INTO Attendance VALUES(046, "3/16/23", 10402);
+INSERT INTO Attendance VALUES(047, "3/16/23", 10404);
+INSERT INTO Attendance VALUES(049, "3/16/23", 10406);
+INSERT INTO Attendance VALUES(052, "3/16/23", 10410);
+INSERT INTO Attendance VALUES(053, "3/16/23", 10412);
+INSERT INTO Attendance VALUES(128, "3/17/23", 10283);
+INSERT INTO Attendance VALUES(129, "3/17/23", 10298);
+INSERT INTO Attendance VALUES(130, "3/17/23", 10304);
+INSERT INTO Attendance VALUES(131, "3/17/23", 19302);
+INSERT INTO Attendance VALUES(132, "3/17/23", 10309);
+INSERT INTO Attendance VALUES(133, "3/17/23", 10328);
+INSERT INTO Attendance VALUES(134, "3/17/23", 10330);
+INSERT INTO Attendance VALUES(135, "3/17/23", 10338);
+INSERT INTO Attendance VALUES(136, "3/17/23", 10347);
+INSERT INTO Attendance VALUES(137, "3/17/23", 10353);
+INSERT INTO Attendance VALUES(138, "3/17/23", 10358);
+INSERT INTO Attendance VALUES(139, "3/17/23", 10367);
+INSERT INTO Attendance VALUES(140, "3/17/23", 10377);
+INSERT INTO Attendance VALUES(141, "3/17/23", 10382);
+INSERT INTO Attendance VALUES(142, "3/17/23", 10384);
+INSERT INTO Attendance VALUES(143, "3/17/23", 10389);
+INSERT INTO Attendance VALUES(144, "3/17/23", 10394);
+INSERT INTO Attendance VALUES(145, "3/17/23", 10402);
+INSERT INTO Attendance VALUES(146, "3/17/23", 10441);
+INSERT INTO Attendance VALUES(147, "3/17/23", 10445);
+INSERT INTO Attendance VALUES(148, "3/18/23", 10338);
+INSERT INTO Attendance VALUES(149, "3/18/23", 10347);
+INSERT INTO Attendance VALUES(150, "3/18/23", 10353);
+INSERT INTO Attendance VALUES(151, "3/18/23", 10358);
+INSERT INTO Attendance VALUES(152, "3/18/23", 10367);
+INSERT INTO Attendance VALUES(153, "3/18/23", 10377);
+INSERT INTO Attendance VALUES(154, "3/18/23", 10382);
+INSERT INTO Attendance VALUES(155, "3/18/23", 10384);
+INSERT INTO Attendance VALUES(156, "3/18/23", 10389);
+INSERT INTO Attendance VALUES(157, "3/18/23", 10394);
+INSERT INTO Attendance VALUES(158, "3/18/23", 10402);
+INSERT INTO Attendance VALUES(159, "3/18/23", 10441);
+INSERT INTO Attendance VALUES(160, "3/18/23", 10445);
+INSERT INTO Attendance VALUES(161, "3/18/23", 10267);
+INSERT INTO Attendance VALUES(162, "3/18/23", 10298);
+INSERT INTO Attendance VALUES(163, "3/18/23", 10340);
+INSERT INTO Attendance VALUES(164, "3/18/23", 10415);
+INSERT INTO Attendance VALUES(165, "3/18/23", 10309);
+INSERT INTO Attendance VALUES(166, "3/18/23", 10356);
+INSERT INTO Attendance VALUES(167, "3/19/23", 10338);
+INSERT INTO Attendance VALUES(168, "3/19/23", 10347);
+INSERT INTO Attendance VALUES(169, "3/19/23", 10353);
+INSERT INTO Attendance VALUES(170, "3/19/23", 10358);
+INSERT INTO Attendance VALUES(171, "3/19/23", 10367);
+INSERT INTO Attendance VALUES(172, "3/19/23", 10377);
+INSERT INTO Attendance VALUES(173, "3/19/23", 10382);
+INSERT INTO Attendance VALUES(174, "3/19/23", 10384);
+INSERT INTO Attendance VALUES(175, "3/19/23", 10389);
+INSERT INTO Attendance VALUES(176, "3/19/23", 10394);
+INSERT INTO Attendance VALUES(177, "3/19/23", 10402);
+INSERT INTO Attendance VALUES(178, "3/19/23", 10441);
+INSERT INTO Attendance VALUES(179, "3/20/23", 10445);
+INSERT INTO Attendance VALUES(180, "3/20/23", 10338);
+INSERT INTO Attendance VALUES(181, "3/20/23", 10309);
+INSERT INTO Attendance VALUES(182, "3/20/23", 10347);
+INSERT INTO Attendance VALUES(183, "3/20/23", 10353);
+INSERT INTO Attendance VALUES(184, "3/20/23", 10358);
+
+
+CREATE TABLE Interviews(
+	id INT PRIMARY KEY,
+	emp_id INT,
+	crime_type TEXT,
+	date TEXT,
+	interview TEXT
+);
+
+INSERT INTO Interviews VALUES(1023, 20104, "COOKIE", "3/17/23", "It was the kid with blonde hair and blue eyes, his name is Michael.");
+INSERT INTO Interviews VALUES(1024, 20113, "MILK SPILL", "3/17/23", "I saw Rachel running around with a full carton of milk");
+INSERT INTO Interviews VALUES(1025, 20110, "MILK SPILL", "3/17/23", "I saw Lesley running after Rachel who running with the milk");
+INSERT INTO Interviews VALUES(1026, 20108, "COOKIE", "3/17/23", "It was the little blond hair kid");
+INSERT INTO Interviews VALUES(1027, 20123, "MILK SPILL", "3/18/23", "I saw the milk on the floor on the side of the counter but I didn't see who did it.");
+INSERT INTO Interviews VALUES(1028, 20117, "COOKIE", "3/18/23", "who keeps stealing all the cookies");
+INSERT INTO Interviews VALUES(1029, 20119, "MILK SPILL", "3/18/23", "Rachel spilled that milk on the laptop, that's why the spacebar is sticky.");
+INSERT INTO Interviews VALUES(1030, 20123, "DAMAGES", "3/18/23", "Chris was tossing the toy around the room.");
+INSERT INTO Interviews VALUES(1031, 20174, "COOKIE", "3/18/23", "Maya ate more cookies than she was supposed to, that why Chris didn't get one.");
+INSERT INTO Interviews VALUES(1032, 20189, "DAMAGES", "3/18/23", "These kids keep stepping all over the toys.");
+INSERT INTO Interviews VALUES(1033, 20113, "DAMAGES", "3/18/23", "Rachel was ripping the heads off the teddy bears and was eating the stuffing.");
+INSERT INTO Interviews VALUES(1034, 20139, "COOKIES", "3/18/23", "These kids are getting out of hand, someone needs to put them on time out.");
+INSERT INTO Interviews VALUES(1035, 20177, "MILK SPILL", "3/18/23", "WHY IS THERE MILK EVERYWHERE!");
+INSERT INTO Interviews VALUES(1036, 20195, "CRAYON", "3/18/23", "One of the kids broke all the crayons!");
+INSERT INTO Interviews VALUES(1037, 20197, "COOKIE", "3/16/23", "Someone keeps taking cookies from the cookie jar.");
+INSERT INTO Interviews VALUES(1038, 20113, "COOKIE", 3/17/23", "I don't know who stole the cookie but I did see a girl spill milk.");
+INSERT INTO Interviews VALUES(1039, 20182, "DAMAGES", "3/18/23", "Someone ripped the heads off the teddy bears.");
+INSERT INTO Interviews VALUES(1040, 20163, "DAMAGES", "3/18/23", "I don't know who ripped off the heads of the teddy bears, but I believe they ate the stuffing from the inside.");
+INSERT INTO Interviews VALUES(1041, 20123, "COOKIE", "3/19/23", "Someone is stealing cookies again?");
+INSERT INTO Interviews VALUES(1042, 20189, "DAMAGES", "3/20/23", "The kids need to be taught to handle these toys more carefully.");
+INSERT INTO Interviews VALUES(1043, 20112, "MILK SPILL", "3/20/23" "Those kids keep running around with milk.");
+INSERT INTO Interviews VALUES(1044, 20125, "MILK SPILL", "3/19/23", "We should just accept the fact that they're going to keep spilling milk everywhere.");
+INSERT INTO Interviews VALUES(1045, 20143, "DAMAGES", "3/20/23", "I didn't see who broke the dinosaur but I'm pretty sure it was Tyler.");
+INSERT INTO Interviews VALUES(1046, 20149, "COOKIE", "3/19/23", "We have a cookie thief among us.");
+INSERT INTO Interviews VALUES(1047, 20127, "COOKIE", "3/20/23", "These cookies need to be put up in a cabinet where they can't reach.");
+
+
+
+
+CREATE TABLE Solution(
+	solution text
+);
+
+INSERT INTO Solution VALUES("");
+
+
+--INSERT INTO Babies VALUES(10283, "MICHAEL", "KEITH", "BLONDE", "BLUE");
+
+
+
